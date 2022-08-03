@@ -1,6 +1,7 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 20%;
+  width: 90%;
+  margin: 5% 0;
 }
 
 .card:hover {
@@ -9,4 +10,10 @@
 
 .container {
   padding: 2px 16px;
+}
+
+.row {
+  display: inline-grid;
+  justify-content: center;
+  grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5%;
 }
